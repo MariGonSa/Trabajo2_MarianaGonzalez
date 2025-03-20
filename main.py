@@ -22,3 +22,4 @@ def create_user(user: User):
 @app.get("/user")
 def get_users():
     return {"users": users_db}
+"# POST endpoint for user creation" 
